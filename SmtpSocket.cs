@@ -11,7 +11,7 @@ using Windows.Networking;
 using Windows.Networking.Sockets;
 using Windows.Storage.Streams;
 
-namespace App27.Mail
+namespace SmtpMail
 {
     public class SmtpSocket
     {
