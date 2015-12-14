@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace App27.Mail
+namespace SmtpMail
 {
     //http://www.ietf.org/rfc/rfc2821.txt
     public enum SmtpCode : int
