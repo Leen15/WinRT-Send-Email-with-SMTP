@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace App27.Mail
+namespace SmtpMail
 {
     public class SmtpResponse
     {
