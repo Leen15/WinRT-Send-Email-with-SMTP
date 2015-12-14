@@ -1,7 +1,7 @@
 # WinRT-Send-Email-with-SMTP
-An example for send email with smtp, based on a msdn post (http://blogs.msdn.com/b/mim/archive/2013/11/29/sending-an-email-within-a-windows-8-1-application-using-streamsocket-to-emulate-a-smtpclient.aspx).
+Basic classes for send email with smtp, based on a msdn post (http://blogs.msdn.com/b/mim/archive/2013/11/29/sending-an-email-within-a-windows-8-1-application-using-streamsocket-to-emulate-a-smtpclient.aspx).
 
-With this classes you can easly send an email with smtp protocol.
+With these classes you can easly send an email with smtp protocol.
 
 Here is a simple code for how to do it:
 
