@@ -98,7 +98,7 @@ public String GetBody()
     StringBuilder sb = new StringBuilder();
 
     var dateFormat = "ddd, dd MMM yyyy HH:mm:ss +0000";
-    sb.AppendFormat("Date: {0}{1}", DateTime.UtcNow.ToString(dateFormat), System.Environment.NewLine);
+    sb.AppendFormat("Date: {0}{1}", DateTime.UtcNow.ToString(dateFormat, CultureInfo.InvariantCulture), System.Environment.NewLine);
 
     if (String.IsNullOrEmpty(this.From))
         throw new Exception("From is mandatory");
